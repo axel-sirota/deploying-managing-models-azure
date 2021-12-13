@@ -1,0 +1,5 @@
+nltk
+numpy
+onnxruntime
+azureml-core
+azureml-defaults
