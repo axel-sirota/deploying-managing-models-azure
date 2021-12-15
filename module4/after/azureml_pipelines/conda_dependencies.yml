@@ -1,0 +1,12 @@
+
+dependencies:
+- python=3.6.2
+- pip:
+  - azureml-core
+  - azureml-dataset-runtime
+  - keras==2.4.3
+  - tensorflow==2.4.3
+  - numpy
+  - scikit-learn
+  - pandas
+  - matplotlib
