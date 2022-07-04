@@ -25,8 +25,8 @@ def run(request):
         None,
         {"query_word": qw, "query_char": qc, "context_word": cw, "context_char": cc},
     )
-    start = np.asscalar(test[0])
-    end = np.asscalar(test[1])
+    start = np.array(test).item(0)
+    end = np.array(test).item(1)
     ans = [w for w in cw[start : end + 1].reshape(-1)]
     print(ans)
     return ans
